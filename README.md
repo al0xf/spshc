@@ -6,11 +6,14 @@ The script is written in Python 3, and should work in any environment capable of
 ##Setup
 Install the Python library requests <https://github.com/kennethreitz/requests>
 Simply:
-.. code-block:: bash
+``` bash
     $ pip install requests
+``` 
 ##How to use spshc
 Create an empty .txt file named 'url_list.txt', and insert links to web pages, one on each line.
 Optionally create an empty .txt file named 'wait_time.txt', and enter the number of seconds to wait between each check. The default wait time is 15 minutes if this file is not provided.
 Run the script with_
-.. code-block:: bash
+``` bash
     $ python3 spshc.py
+```
+ 
